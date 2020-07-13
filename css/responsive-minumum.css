@@ -1,0 +1,107 @@
+@media only screen and (min-width:320px) {
+
+    /* sec-01 */
+
+    #carousel-item-container h1 {
+        font-size: 3rem;
+        letter-spacing: 0.4rem;
+    }
+
+    /* sec-04 */
+
+    #switch-container {
+        overflow-x: auto;
+    }
+
+    /* sec-08 */
+
+    #form-container {
+        height: 80vh;
+    }
+
+}
+
+
+@media only screen and (min-width:480px) {}
+
+
+@media only screen and (min-width:768px) {
+
+    /* sec-01 */
+
+    #carousel-item-container h1 {
+        font-size: 4rem;
+        letter-spacing: 0.6rem;
+    }
+
+    /* sec-04 */
+
+    #switch-container {
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (min-width:992px) {
+
+    /* sec-01 */
+
+    #carousel-item-container h1 {
+        font-size: 5.5rem;
+        letter-spacing: 0.8rem;
+    }
+
+    /* sec-06 */
+
+    .arrow-lg-left:after {
+        left: 0;
+        top: 50%;
+        right: 100%;
+        bottom: 0;
+
+        margin-left: -20px;
+        margin-top: -20px;
+        margin-right: 0;
+        margin-bottom: 0;
+
+        border-left: 0;
+        border-top: 20px solid transparent;
+        border-right: 20px solid white;
+        border-bottom: 20px solid transparent;
+    }
+
+    .arrow-lg-right:after {
+        left: 100%;
+        top: 50%;
+        right: 0;
+        bottom: 0;
+
+        margin-left: 0;
+        margin-top: -20px;
+        margin-right: -20px;
+        margin-bottom: 0;
+
+        border-left: 20px solid white;
+        border-top: 20px solid transparent;
+        border-right: 0;
+        border-bottom: 20px solid transparent;
+    }
+
+    /* sec-08 */
+
+    #form-container {
+        height: 60vh;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    /* sec-01 */
+
+    #carousel-item-container h1 {
+        font-size: 6rem;
+        letter-spacing: 1rem;
+    }
+}

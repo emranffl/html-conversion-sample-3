@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ---------------common classes-------------- */
+
+.btns {
+    font-weight: 300;
+    font-size: 0.85rem;
+}
+
+.overlay-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(to right top, rgba(141, 45, 185, 0.274), rgba(252, 3, 45, 0.74));
+}
+
+.u {
+    text-decoration-color: #ff4a13;
+    text-underline-position: under;
+}
+
+/* --------------common classes ENDS--------------- */
+
+.sec-01 {
+    height: 70vh;
+
+    background-image: url(../media/main-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(to right top, rgba(255, 255, 255, 0.13), rgba(252, 3, 45, 0.548));
+}
+
+#brand-name {
+    font-weight: 700;
+}
+
+.navbar-container li a {
+    font-size: 0.85rem;
+}
+
+#ModalCenter input {
+    width: -webkit-fill-available;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.carousel-inner h1 {
+    font-weight: 700;
+    letter-spacing: 1rem;
+}
+
+/* ----------sec-01 ENDS----------- */
+
+.sec-03 {
+    height: 40vh;
+
+    background-image: url(../media/newsletter-bg.jpg);
+    background-position: 0% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+/* ----------sec-03 ENDS----------- */
+
+.switch {
+    border: 0;
+    padding: 0 15px;
+}
+
+.switch.active {
+    color: #dc3545;
+    background-color: white;
+}
+
+/* ----------sec-04 ENDS----------- */
+
+.sec-05 {
+    height: 100vh;
+
+    background-image: url(../media/table-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+/* ----------sec-05 ENDS----------- */
+
+.arrow-top:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+
+    left: 50%;
+    bottom: 100%;
+
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+}
+
+/* ----------sec-06 ENDS----------- */
+
+#map-container {
+    height: 60vh;
+}
+
+.sec-08 iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#form-container {
+    height: 60vh;
+
+    background-image: url(../media/form-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+/* ----------sec-08 ENDS----------- */
